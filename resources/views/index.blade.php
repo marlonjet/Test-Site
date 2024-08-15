@@ -10,6 +10,11 @@
 
         {!! get_search_form(false) !!}
     @endif
+    <div class="py-6">
+        <h1 class="text-orange-500 text-3xl font-black">
+            Wordpress Site for testing purpose.
+        </h1>
+    </div>
 
     @while (have_posts())
         @php(the_post())

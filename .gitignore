@@ -1,6 +1,6 @@
 /node_modules
-# /vendor
-# /public
+/vendor
+/public
 .env
 .budfiles
 npm-debug.log
